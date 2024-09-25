@@ -841,7 +841,6 @@
                 '<div class="price-filter">' +
                 '   <div class="info">' +
                 '       <span class="secondary label">Минимальная цена купить сейчас:</span>' +
-                '       <br/><small>For cache reset iterations</small>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
                 '       <div class="inputBox">' +
@@ -871,7 +870,7 @@
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Минимальный счетчик очистки:' +
+                '       <span class="secondary label">Счетчик очистки трансферного листа:' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
                 '       <div class="inputBox">' +
@@ -893,7 +892,7 @@
                 '   <input type="checkbox" disabled="disabled" id="adjust_mode" unchecked>' +
                 '</div>' +
                 '<div class="price-filter" style="padding: 15px 5px;">' +
-                '   <input type="checkbox" id="buy_sound" name="buy_sound">' +
+                '   <input type="checkbox" id="buy_sound" name="Звук при покупке" checked>' +
                 '   <label for="buy_sound">Buy Sound</label>' +
                 '</div>' +
                 '<div class="search-price-header">' +
