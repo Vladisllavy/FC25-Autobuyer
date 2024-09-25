@@ -45,7 +45,7 @@
         ADJUST: "adjust"
     };
 
-    window.autobuyerVersion = 'v1.9.0';
+    window.autobuyerVersion = 'v1.0.0';
     window.searchCount = 0;
     window.profit = 0
     window.sellList = [];
