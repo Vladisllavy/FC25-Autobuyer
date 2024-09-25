@@ -901,6 +901,7 @@
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
+                '       <span class="secondary label">Покупать:</span>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
                 '       <div class="inputBox">' +
