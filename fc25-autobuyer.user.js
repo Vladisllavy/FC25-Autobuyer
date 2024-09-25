@@ -60,7 +60,7 @@
     window.adjustTopLimit = 13;
     window.adjustMinProfit = 50;
     window.tradeMode = 'buy';
-    window.futInfo = 'FUT-25 Autobyer software https://github.com/Vladisllavy/fut25-web-app';
+    window.futInfo = 'FUT-25 Autobyer software https://github.com/Vladisllavy/FC25-Autobuyer';
     window.futCheck = 1875;
     window.futSearchCount = 21;
 
