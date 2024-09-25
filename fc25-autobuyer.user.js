@@ -892,8 +892,8 @@
                 '   <input type="checkbox" disabled="disabled" id="adjust_mode" unchecked>' +
                 '</div>' +
                 '<div class="price-filter" style="padding: 15px 5px;">' +
-                '   <input type="checkbox" id="buy_sound" name="Звук при покупке" checked>' +
-                '   <label for="buy_sound">Buy Sound</label>' +
+                '   <input type="checkbox" id="buy_sound" name="buy_sound" checked>' +
+                '   <label for="buy_sound">Звук покупки</label>' +
                 '</div>' +
                 '<div class="search-price-header">' +
                 '   <h1 class="secondary">Настройки фильтра:</h1>' +
