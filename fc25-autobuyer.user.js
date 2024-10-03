@@ -45,10 +45,10 @@
         ADJUST: "adjust"
     };
 
-    window.autobuyerVersion = 'v1.0.0';
+    window.autobuyerVersion = 'v1.1.0';
     window.searchCount = 0;
     window.profit = 0
-    window.sellList = [];
+    window.sellQueue = [];
     window.adjust = {};
     window.adjustBasePriceDetected = null;
     window.adjustSellPrice = null;
@@ -507,11 +507,15 @@
             var name = itemName(item._staticData)
 
             if (data.success) {
-                writeToLog(name + ' [' + item._auction.tradeId + '] ' + price + " Bought");
+                writeToLog(name + ' [' + item._auction.tradeId + '] ' + price + " Куплен");
 
                 if ($('#buy_sound').prop("checked")) {
                     var buySound = new Audio("https://actions.google.com/sounds/v1/cartoon/pop.ogg");
                     buySound.play();
+                }
+
+                if ($('#buy_stop').prop("checked")) {
+                   window.deactivateAutoBuyer()
                 }
 
                 if (!filterSell(item)) {
@@ -521,13 +525,14 @@
 
                 var sellPrice = parseInt($('#ab_sell_price').val());
                 if (sellPrice !== 0 && !isNaN(sellPrice)) {
-                    writeToLog(' -- Selling for: ' + sellPrice);
+                    writeToLog(' -- Выставлен за: ' + sellPrice);
                     window.profit += (sellPrice / 100 * 95) - price;
 
                     window.sellQueue.push([item, sellPrice, 3600]);
                 }
+
             } else {
-                writeToLog(name + ' [' + item._auction.tradeId + '] ' + price + ' buy failed');
+                writeToLog(name + ' [' + item._auction.tradeId + '] ' + price + ' ошибка покупки');
             }
         }));
     }
@@ -744,9 +749,7 @@
             window.deactivateAutoBuyer()
         });
 
-        const searchButton = createButton(
-            "Старт",
-            function () {
+        const searchButton = createButton("Старт", function () {
                 window.activateAutoBuyer()
             },
             "call-to-action"
@@ -893,7 +896,9 @@
                 '</div>' +
                 '<div class="price-filter" style="padding: 15px 5px;">' +
                 '   <input type="checkbox" id="buy_sound" name="buy_sound" checked>' +
-                '   <label for="buy_sound">Звук покупки</label>' +
+                '   <label for="buy_stop">Звук покупки</label>' +
+                '   <input type="checkbox" id="buy_stop" name="buy_stop">' +
+                '   <label for="buy_stop">Остановка после покупки</label>' +
                 '</div>' +
                 '<div class="search-price-header">' +
                 '   <h1 class="secondary">Настройки фильтра:</h1>' +
@@ -1115,7 +1120,7 @@
 
     window.setInterval(function () {
         showAutobuyerInfo();
-    }, 600000);
+    }, 1200000);
 
     window.setInterval(function () {
         if (window.autoBuyerStatus === window.AB_STATUSES.IDLE) {
