@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FC25 Autobuyer
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.1.0
 // @description  FC25 Autobuyer
 // @author       Vladisllavy
 // @match        https://www.easports.com/*/ea-sports-fc/ultimate-team/web-app/*
