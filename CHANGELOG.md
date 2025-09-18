@@ -7,3 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.0.0] - 2024-09-26
  
 ### Added files
+
+## [1.2.0] - 2024-09-26
+ 
+### Update for FC26
