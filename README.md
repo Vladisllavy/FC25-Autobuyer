@@ -1,5 +1,5 @@
-# FC25-Autobuyer
-Tampermonkey scripts for FC 25 autobuyer functionality.
+# FC26-Autobuyer
+Tampermonkey scripts for FC 26 autobuyer functionality.
 
 The software is provided "as is" without warranty of any kind, either express or implied. Use it at your own risk.
 
