@@ -5,4 +5,4 @@ The software is provided "as is" without warranty of any kind, either express or
 
 All questions that I cannot answer (for obvious reasons, I am not responsible for the server side of the application) will be closed.
 
-Actual setup link: https://github.com/Vladisllavy/fc25-web-app/raw/master/fc25-autobuyer.user.js
+Actual setup link: https://github.com/Vladisllavy/fc25-web-app/raw/master/fc26-autobuyer.user.js
