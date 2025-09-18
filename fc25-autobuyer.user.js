@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         FC25 Autobuyer
+// @name         FC26 Autobuyer
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
-// @description  FC25 Autobuyer
+// @version      1.2.0
+// @description  FC26 Autobuyer
 // @author       Vladisllavy
 // @match        https://www.easports.com/*/ea-sports-fc/ultimate-team/web-app/*
 // @match        https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*
@@ -887,7 +887,7 @@
                 '   </div>' +
                 '   <div class="buttonInfo">' +
                 '       <div class="inputBox">' +
-                '           <input type="text" class="ut-number-input-control" id="ab_max_purchases" placeholder="3" value="3">' +
+                '           <input type="text" class="ut-number-input-control" id="ab_max_purchases" placeholder="1" value="1">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
@@ -1115,12 +1115,14 @@
     };
 
     window.showAutobuyerInfo = function () {
+        $("#autoBuyerFoundLog").val("");
+        $("#progressAutobuyer").val("");
         writeToLog(window.futInfo);
     };
 
     window.setInterval(function () {
         showAutobuyerInfo();
-    }, 1200000);
+    }, 3600000);
 
     window.setInterval(function () {
         if (window.autoBuyerStatus === window.AB_STATUSES.IDLE) {
