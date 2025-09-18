@@ -45,7 +45,7 @@
         ADJUST: "adjust"
     };
 
-    window.autobuyerVersion = 'v1.1.0';
+    window.autobuyerVersion = 'v1.2.0';
     window.searchCount = 0;
     window.profit = 0
     window.sellQueue = [];
@@ -823,70 +823,70 @@
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Цена продажи:</span><br/><small>После продажи: <span id="sell_after_tax">0</span></small>' +
+                '       <span class="secondary label" style="padding-right: 5px;">Цена продажи:</span><br/><small>После продажи: <span id="sell_after_tax">0</span></small>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
-                '       <div class="inputBox">' +
+                '       <div class="inputBox" style="padding-right: 5px;">' +
                 '           <input type="tel" class="ut-number-input-control" id="ab_sell_price">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Цена покупки:</span>' +
+                '       <span class="secondary label" style="padding-right: 5px;">Цена покупки:</span>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
-                '       <div class="inputBox">' +
+                '       <div class="inputBox" style="padding-right: 5px;">' +
                 '           <input type="tel" class="ut-number-input-control" id="ab_buy_price">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Минимальная цена купить сейчас:</span>' +
+                '       <span class="secondary label" style="padding-right: 5px;">Минимальная купить сейчас:</span>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
-                '       <div class="inputBox">' +
+                '       <div class="inputBox" style="padding-right: 5px;">' +
                 '           <input type="tel" class="ut-number-input-control" id="ab_min_bid_price_threshold" value="150">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Максимальая цена купить сейчас:</span>' +
+                '       <span class="secondary label" style="padding-right: 5px;">Максимальая купить сейчас:</span>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
-                '       <div class="inputBox">' +
+                '       <div class="inputBox" style="padding-right: 5px;">' +
                 '           <input type="tel" class="ut-number-input-control" id="ab_min_buy_now_threshold" value="250">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Задержка:<br/>' +
+                '       <span class="secondary label" style="padding-right: 5px;">Задержка:<br/>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
-                '       <div class="inputBox">' +
+                '       <div class="inputBox" style="padding-right: 5px;">' +
                 '           <input type="tel" class="ut-number-input-control" id="ab_wait_time" placeholder="7-10" value="7-10">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Счетчик очистки трансферного листа:' +
+                '       <span class="secondary label" style="padding-right: 5px;">Счетчик очистки трансферного листа:' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
-                '       <div class="inputBox">' +
+                '       <div class="inputBox" style="padding-right: 5px;">' +
                 '           <input type="tel" class="ut-number-input-control" id="ab_min_delete_count" placeholder="" value="10">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
                 '<div class="price-filter">' +
                 '   <div class="info">' +
-                '       <span class="secondary label">Число покупок за раз:</span>' +
+                '       <span class="secondary label" style="padding-right: 5px;">Число покупок за раз:</span>' +
                 '   </div>' +
                 '   <div class="buttonInfo">' +
-                '       <div class="inputBox">' +
+                '       <div class="inputBox" style="padding-right: 5px;">' +
                 '           <input type="text" class="ut-number-input-control" id="ab_max_purchases" placeholder="1" value="1">' +
                 '       </div>' +
                 '   </div>' +
