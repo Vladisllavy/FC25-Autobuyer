@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         FC26 Autobuyer
+// @name         FC27 Autobuyer
 // @namespace    http://tampermonkey.net/
-// @version      1.2.0
-// @description  FC26 Autobuyer
+// @version      1.1.0
+// @description  FC27 Autobuyer
 // @author       Vladisllavy
 // @match        https://www.easports.com/*/ea-sports-fc/ultimate-team/web-app/*
 // @match        https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*
@@ -45,7 +45,7 @@
         ADJUST: "adjust"
     };
 
-    window.autobuyerVersion = 'v1.2.0';
+    window.autobuyerVersion = 'v1.1.0';
     window.searchCount = 0;
     window.profit = 0
     window.sellQueue = [];
@@ -60,7 +60,7 @@
     window.adjustTopLimit = 13;
     window.adjustMinProfit = 50;
     window.tradeMode = 'buy';
-    window.futInfo = 'FUT-26 Autobyer software https://github.com/Vladisllavy/FC25-Autobuyer';
+    window.futInfo = 'FUT-27 Autobyer software https://github.com/Vladisllavy/FC25-Autobuyer';
     window.futCheck = 1875;
     window.futSearchCount = 21;
 
