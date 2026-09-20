@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FC27 Autobuyer
 // @namespace    https://github.com/Vladisllavy/FC27-Autobuyer
-// @version      1.1.0
+// @version      1.1.1
 // @description  FC27 Autobuyer
 // @author       Vladisllavy
 // @match        https://www.easports.com/*/ea-sports-fc/ultimate-team/web-app/*
