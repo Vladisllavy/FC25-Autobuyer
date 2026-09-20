@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         FC27 Autobuyer
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Vladisllavy/FC27-Autobuyer
 // @version      1.1.0
 // @description  FC27 Autobuyer
 // @author       Vladisllavy
@@ -8,8 +8,9 @@
 // @match        https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // @grant        none
+// @updateURL https://github.com/Vladisllavy/FC27-Autobuyer/releases/download/latest/fc27-autobuyer.user.js
+// @downloadURL https://github.com/Vladisllavy/FC27-Autobuyer/releases/download/latest/fc27-autobuyer.user.js
 // ==/UserScript==
-
 (function () {
     'use strict';
 
@@ -60,7 +61,7 @@
     window.adjustTopLimit = 13;
     window.adjustMinProfit = 50;
     window.tradeMode = 'buy';
-    window.futInfo = 'FUT-27 Autobyer software https://github.com/Vladisllavy/FC25-Autobuyer';
+    window.futInfo = 'FUT-27 Autobyer software https://github.com/Vladisllavy/FC27-Autobuyer';
     window.futCheck = 1875;
     window.futSearchCount = 21;
 
