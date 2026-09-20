@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FC27 Autobuyer
 // @namespace    https://github.com/Vladisllavy/FC27-Autobuyer
-// @version      1.1.2
+// @version      1.1.4
 // @description  FC27 Autobuyer
 // @author       Vladisllavy
 // @match        https://www.easports.com/*/ea-sports-fc/ultimate-team/web-app/*
@@ -46,7 +46,7 @@
         ADJUST: "adjust"
     };
 
-    window.autobuyerVersion = 'v1.1.0';
+    window.autobuyerVersion = 'v1.1.4';
     window.searchCount = 0;
     window.profit = 0
     window.sellQueue = [];
