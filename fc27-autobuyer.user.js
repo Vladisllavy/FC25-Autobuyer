@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         FC27 Autobuyer
 // @namespace    https://github.com/Vladisllavy/FC27-Autobuyer
-// @version      1.1.1
+// @version      1.1.2
 // @description  FC27 Autobuyer
 // @author       Vladisllavy
 // @match        https://www.easports.com/*/ea-sports-fc/ultimate-team/web-app/*
 // @match        https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // @grant        none
-// @updateURL https://github.com/Vladisllavy/FC27-Autobuyer/releases/download/latest/fc27-autobuyer.user.js
-// @downloadURL https://github.com/Vladisllavy/FC27-Autobuyer/releases/download/latest/fc27-autobuyer.user.js
+// @updateURL https://github.com/Vladisllavy/FC27-Autobuyer/releases/latest/download/fc27-autobuyer.user.js
+// @downloadURL https://github.com/Vladisllavy/FC27-Autobuyer/releases/latest/download/fc27-autobuyer.user.js
 // ==/UserScript==
 (function () {
     'use strict';
