@@ -1,8 +1,8 @@
 # FC26-Autobuyer
-Tampermonkey scripts for FC 26 autobuyer functionality.
+Tampermonkey scripts for FC 27 autobuyer functionality.
 
 The software is provided "as is" without warranty of any kind, either express or implied. Use it at your own risk.
 
 All questions that I cannot answer (for obvious reasons, I am not responsible for the server side of the application) will be closed.
 
-Actual setup link: https://github.com/Vladisllavy/FC25-Autobuyer/raw/master/fc26-autobuyer.user.js
+Actual setup link: https://github.com/Vladisllavy/FC25-Autobuyer/raw/master/fc27-autobuyer.user.js
