@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FC27 Autobuyer
 // @namespace    https://github.com/Vladisllavy/FC27-Autobuyer
-// @version      1.1.4
+// @version      1.1.5
 // @description  FC27 Autobuyer
 // @author       Vladisllavy
 // @match        https://www.easports.com/*/ea-sports-fc/ultimate-team/web-app/*
@@ -46,7 +46,7 @@
         ADJUST: "adjust"
     };
 
-    window.autobuyerVersion = 'v1.1.4';
+    window.autobuyerVersion = 'v1.1.5';
     window.searchCount = 0;
     window.profit = 0
     window.sellQueue = [];
@@ -878,7 +878,7 @@
                 '   </div>' +
                 '   <div class="buttonInfo">' +
                 '       <div class="inputBox" style="padding-right: 5px;">' +
-                '           <input type="tel" class="ut-number-input-control" id="ab_min_delete_count" placeholder="" value="10">' +
+                '           <input type="tel" class="ut-number-input-control" id="ab_min_delete_count" placeholder="" value="99">' +
                 '       </div>' +
                 '   </div>' +
                 '</div>' +
